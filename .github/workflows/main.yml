@@ -37,7 +37,7 @@ jobs:
    # Step 4   
    - name: Commit files
      run: |
-       git config remote.origin.url https://github.com/shmcminn/python-pipeline-nicar24.git
+       git config remote.origin.url https://github.com/jterhune2017/NICAR-data-pipelines.git
        git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
        git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
        git add .
